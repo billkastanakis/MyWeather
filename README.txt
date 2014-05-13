@@ -1,0 +1,23 @@
+A Simple Forecast App
+
+Execution Time: 5 hours.
+
+The app fetches the forest from open OpenWeatherMap API. I have used some simple animations just for demonstration. 
+
+Features:
+- Seamless transitions
+- Created for 3.5 and 4 inch devices
+- Asynchronous operation
+- Animated interface
+
+The app could be created with much less lines, by simply fetching the JSON and using key value instead of creating a model, endpoint and helper classes. Instead I simply followed some basic rules for better scalability like:
+
+- Separate classes for each endopoint. Better organization in case of multiple verbs in the endpoint (BKOpenWeatherForecastEndpoint).
+- Helper classes for JSON parsing and other convenient methods (BKWeatherHelper)
+- Model Classes to follow MVC design pattern (BKForecast)
+
+TO DO:
+- some better error handling in case of no connection.
+- implement caching for offline browsing if there is no connection.
+- add some weather icons
+- unit testing
