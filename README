@@ -16,6 +16,8 @@ The app could be created with much less lines, by simply fetching the JSON and u
 - Helper classes for JSON parsing and other convenient methods (BKWeatherHelper)
 - Model Classes to follow MVC design pattern (BKForecast)
 
+Checked with instruments for Allocations & Leaks. Clean.
+
 TO DO:
 - some better error handling in case of no connection.
 - implement caching for offline browsing if there is no connection.
