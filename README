@@ -3,6 +3,7 @@ A Simple Forecast App
 Execution Time: 5 hours.
 
 The app fetches the weather forecast from OpenWeatherMap API. I have used some simple animations just for demonstration. 
+I have limited myself to Apple APIs, for newtworking  I have used NSURLSession.
 
 Features:
 - Seamless transitions
